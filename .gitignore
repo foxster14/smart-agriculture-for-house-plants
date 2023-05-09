@@ -5,9 +5,22 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+/.config
+/.cups
+/.pki/nssdb
+/.vnc/config.d
+/Bookshelf
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Misc
+.Xauthority
+.bash_logout
+.profile
+.xsession-errors
+.xsession-errors.old
+
 
 # Runtime data
 pids
