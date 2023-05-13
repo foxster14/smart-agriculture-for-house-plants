@@ -11,7 +11,7 @@ class DataPublisher:
         self.client = mqtt.Client("farmbeats")
        # self.client.username_pw_set(username="joeax",password="Picard2023!")
        # self.client.connect("76.17.142.126", port=21883)
-        self.client.connect("10.0.0.165")
+        self.client.connect("10.0.0.165", port=1883)
 
     def send_data(self, data):
         print("invoke send_data")
